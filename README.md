@@ -1,5 +1,8 @@
 # GPGPU
 
+## Fichiers
+Voir dans branches pour les différents exos dépendants des chapitres que l'on voyait en cours.
+
 ### Compiler fichier C : 
 
 gcc example.c
