@@ -78,19 +78,30 @@ Executer fichier :
 ### profilage : 
 
 nsys profile -t cuda ./leprogramme
-![My Image](79a0a795a69c15e63e9641a22e446eaa.jpg)
+
 Ensuite il faut ouvrir le fichier qui a été généré dans le logiciel 
+
 nsys-ui
+
 Zoomer sur le temps de CUDA : mettre curseur pour mieux voir le temps d'exécution
 
-**Profilage/Occupation OpenACC : **
+
+### Profilage/Occupation OpenACC : 
+
 – si veut faire profilage (détail intérieur des kernels), faut remplir les infos dans 1er partie 
 
+
 cliquer sur occupancy calculator : 
+
 - faut renseigner le premier cadre tout en haut : 
 
-- Aide pour remplir ce tableau : 
+
+- Aide pour remplir ce tableau :
+
 32 registres et 512 bytes de mémoire partagée 
+
 Tables : peut voir si occupe bien toutes les ressources ou non 
+
 Graphs : des 3 paramètres (visualiser thread par block, registre et mémoire partagée) 
+
 ATTENTION : occupation à 100% ne veut pas dire meilleure performance (tuile plus petite, plus de wrap disponible [des wraps peuvent faire des calculs pendant que certains attendent] : tourne plus vite) → trouver compromis entre perfo et occupation 
