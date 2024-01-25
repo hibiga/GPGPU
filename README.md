@@ -1,7 +1,9 @@
 # GPGPU
 
-**Compiler fichier C : **
+### Compiler fichier C : 
+
 gcc example.c
+
 
 blockIdx.x : id du block 
 blockDim.x : dimension du block (nombre de processus) 
