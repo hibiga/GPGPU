@@ -2,7 +2,7 @@ NVCC=nvcc
 CXX=nvc++
 CFLAGS=-O2
 
-exe=1-basicMatMul
+exe=2-basicMatMulTiled
 
 all: $(exe)
 
@@ -10,7 +10,7 @@ all: $(exe)
 	$(CXX) -c -fPIC $(CFLAGS) $< -o $@
 %.o: %.cu
 	$(NVCC) -c $(CFLAGS) $< -o $@
-1-basicMatMul: 1-basicMatMul.o matmul_utils.o
+2-basicMatMulTiled: 2-basicMatMulTiled.o matmul_utils.o
 	$(NVCC) $(CFLAGS) $^ -o $@  $(LDFLAGS) $(LIBCV) -lm
 clean:
 	rm -f *.o $(exe)
