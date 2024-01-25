@@ -75,8 +75,10 @@ Executer fichier :
 
 
 ## Profiler
-**profilage : **
+### profilage : 
+
 nsys profile -t cuda ./leprogramme
+![My Image](79a0a795a69c15e63e9641a22e446eaa.jpg)
 Ensuite il faut ouvrir le fichier qui a été généré dans le logiciel 
 nsys-ui
 Zoomer sur le temps de CUDA : mettre curseur pour mieux voir le temps d'exécution
