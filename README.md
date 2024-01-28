@@ -90,17 +90,16 @@ Zoomer sur le temps de CUDA : mettre curseur pour mieux voir le temps d'exécuti
 
 
 ### Profilage/Occupation OpenACC : 
-
+![Screenshot](Capture1.png)
 – si veut faire profilage (détail intérieur des kernels), faut remplir les infos dans 1er partie 
-
 
 cliquer sur occupancy calculator : 
 
 - faut renseigner le premier cadre tout en haut : 
-
+![Screenshot](Capture2.png)
 
 - Aide pour remplir ce tableau :
-
+![Screenshot](Capture3.png)
 32 registres et 512 bytes de mémoire partagée 
 
 Tables : peut voir si occupe bien toutes les ressources ou non 
