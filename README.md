@@ -97,10 +97,12 @@ Zoomer sur le temps de CUDA : mettre curseur pour mieux voir le temps d'exécuti
 cliquer sur occupancy calculator : 
 
 - faut renseigner le premier cadre tout en haut : 
-![Screenshot](Capture2.png)
+![Capture2](https://github.com/hibiga/GPGPU/assets/94227892/cb770f0a-853b-41ff-8dea-06726c573143)
+
 
 - Aide pour remplir ce tableau :
-![Screenshot](Capture3.png)
+![Capture3](https://github.com/hibiga/GPGPU/assets/94227892/7775750b-c778-49d8-b0a5-c590eedb7475)
+
 32 registres et 512 bytes de mémoire partagée 
 
 Tables : peut voir si occupe bien toutes les ressources ou non 
