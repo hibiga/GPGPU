@@ -1,8 +1,7 @@
 # Exercice : Produit scalaire efficace sur GPU avec réduction**
 
 L'objectif de cet exercice est d'implémenter un produit scalaire efficace sur GPU. La définition du produit scalaire est la suivante :
-\[ a \cdot b = \sum_{i=0}^{n} a_i \cdot b_i \]
-où \( a \) et \( b \) sont des vecteurs de longueur \( n \).
+\[ a \cdot b = \sum_{i=0}^{n} a_i \cdot b_i \] où \( a \) et \( b \) sont des vecteurs de longueur \( n \).
 
 ## Instructions :
 
