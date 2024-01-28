@@ -90,7 +90,8 @@ Zoomer sur le temps de CUDA : mettre curseur pour mieux voir le temps d'exécuti
 
 
 ### Profilage/Occupation OpenACC : 
-![Screenshot](Capture1.png)
+![Capture1](https://github.com/hibiga/GPGPU/assets/94227892/d5b854f7-6c94-480a-8054-0945a14fc8a2)
+
 – si veut faire profilage (détail intérieur des kernels), faut remplir les infos dans 1er partie 
 
 cliquer sur occupancy calculator : 
